@@ -1,0 +1,9 @@
+import datetime
+
+# Получение текущей даты и времени
+current_datetime = datetime.datetime.now()
+print(current_datetime)
+
+# Форматирование даты и времени
+formatted_datetime = current_datetime.strftime('%Y-%m-%d %H:%M:%S')
+print(formatted_datetime)
